@@ -1,0 +1,29 @@
+Intro
+Welcome to this e-learning module concerning the A320 main landing gear door uplock proximity sensor associated faults.
+
+S10A
+Currently, main landing gear Door Uplock Proximity Sensors fault messages are reported and generate a significant number of Operational Interrupts on the A320 Family aircraft. Based on the A320 Family Fleet data, main landing gear Door Uplock Proximity Sensors issues contribute to 45% of all ATA32 Operational Interrupts. During this kind of fault, the e-cam warning message “landing gear LGCIU 1(2) ” comes into view  on the Warning section of the UPPER ECAM, a single chime sounds and the master caution illuminates. This fault message is associated with 26 to 29GA prox sensor disagree or TGT POS (target position)
+
+S20A
+A Fault related to the main landing gear Door Uplock Proximity Sensors can have operational consequences such as: Flight cancellation, aircraft on ground or unscheduled maintenance work. If the troubleshooting is not correctly performed it can lead to a high number of unnecessary removals of the LGCIU or of the proximity sensors. The Airbus monitoring shows a high “No Fault Found” rate on LGCIUs and Proximity Sensors. The Fault is typically intermittent and therefore difficult to troubleshoot.
+
+S30A
+A root cause investigation has shown varying levels of relative movement (free play) on the proximity sensor pin and socket interface. The effects of free play between the connectors result from wear and friction at the interface between the pins of the proximity sensors and the sockets of the aircraft harness connector.  Oxide layers can form at the pin/socket interface and can increase the resistance in the proximity sensor circuit causing sensing/indication or open circuit fault.
+
+S35A
+Airbus has worked with the main landing gear Door uplock manufacturer to introduce a permanent solution. The change will introduce a new bracket attached on the uplock box to limit the movement of the connector and proximity sensor pins. Qualification and testing of the final design solution has been done. The modification can be performed directly on wing and without the main landing gear door uplock removal.
+
+S40
+To minimize the risk of in-service fault and to prevent aircraft on ground situations, an accurate troubleshooting is necessary to identify the fault. For FINs 26 – 29GA, the troubleshooting will be based on the correlation of the PFR and the e-cam & LGCIU Data, and, the Check of the inductance and resistance of the proximity sensors with their associated lines. In addition, some sensor issues are related to free play resulting in wear/corrosion of the pins which may not be easily visible at the sensor or connector interface. Please note that the problem tends to recur after various periods due to the condition of the harness connector barrel and socket interface.
+
+S50
+The proximity sensors used on the Landing gears are a very simple and robust design. They are built with a coil sealed in a solid metal case. The sensor can detect if a metal Target is Near or Far from it. The proximity sensor is an non-contact inductive electronic proximity sensor and, like the output of an inductive sensor,  has only two possible states, so it is called a proximity switch. The coil itself cannot detect anything, it requires the Proximity Sensor Processing Module inside the LGCIU. Aside from a thorough visual inspection of the Sensor Pins and Connector sockets, trouble shooting goes in two directions: an inductance check or a resistance check.
+
+S60A
+The Inductance Check of the Proximity Sensors/Switches is done from the LGCIU arinc tray at the  90VU (Forward Avionic Comp. access door 811) by using a inductance meter 1KHz. Through this tool, we will be able to measure the inductance between the applicable pins of arinc connector AA. (From arinc tray to the Sensor and back). The same control can be done more comfortably by a A320 family LGCIU breakout box (38-798-01). NOTE: The inductance value at the target-near position is very important for the correct operation of the proximity sensor/switch. If the inductance value of the proximity sensor/switch is not correct, the L/G might not operate correctly.
+
+S70
+The Resistance Check of the Proximity Sensors is done in two steps: - First, by using  a  Standard-Multimeter to measure the DC resistance between pins A and B on the applicable proximity sensor. If this check is OK , the second step will be to check for a Short Circuit to Ground by connecting pins A and B together. Then connect one test lead from an Insulation Resistance Tester to the connected AB pins and the other test lead to the housing. Slowly provide a test signal at 50VDC for 5 seconds and read the resistance value. NOTE: The LGCIU can detect if a sensor has a short to ground (the sensor drains more current) consequently a sensor can be faulty even is the resistance between Pin A and B is correct.
+
+S80
+To carry out the measurement, we are currently tempted to use a standard multimeter but this one is not precise enough. The troubleshooting becomes easier with the right tools, therefore Airbus recommends to use one of these two tools. For example, to perform the inductance check you can use the A320 family LGCIU breakout box part number 38-798-01 or the Unit Test sensor part number 38-368-02.

@@ -1,0 +1,50 @@
+Intro
+"Welcome to this E-learning module concerning the A350XWB (1000) Bogie Pitch Trimmer early degradation."
+
+S10_01
+"Before speaking about the Bogie Pitch Trimmer early degradation, we must know that: The independent Bogie Pitch Trimmer (BPT) function is to ensure that the Main Landing Gear (MLG) bogie is in the correct position. Through the continuous monitoring AIRTHM, some units are able to show the early degradation of oil pressure and/or oil volume."
+
+S10_02
+"The external leak check (described in the AMM procedure MP 32-11-69-04001-200A) allows the dispacth under certain conditions, for example, if there is 4 drops (or less) for a duration of 10 minutes.  If there is more than 4 drops during this time, the dispatch is not possible and a replacement or servicing is required."
+
+S20_01
+"The Bogie Beam Pitch Trim Actuators are monitored via the two transducers connected to the CRDC."
+
+S20_02
+"The CRDC sends the Oil and Nitrogen Pressure as well as Oil quantity to the LGMS application via the AFDX network. In case of discrepancy, a Dispatch message is triggered and shown on the CDS."
+
+S20_03
+"If the dispatch message shown is: “Landing Gear L (R) BOGIE ACCU LO”, the related condition is that no dispatch is possible and that a replacement or servicing is required."
+
+S30_01
+"The investigation is on going, nervertheless, based on the preventive recommendation, the operators have to perform an oil and gas servicing before the normal Maintenance Planning Document (MPD) interval."
+
+S30_02
+"The AMM procedure MP 32-11-69-02001-200A-A about the service of the Pitch Trim Actuator (Weight on Wheels) needs two persons. One in the cockpit and one at the actuator."
+
+S30_03
+"Moreover a conventional Nitrogen Source cart and a conventional oil service cart is needed. However, to perfom the Maintenance Procedure (MP) task, the Ground Support Equipment (GSE) referenced as GSE57880 is necessary. The oil used during this procedure is the same as the oil for the MLG Shock Absorbers."
+
+S40_01
+"As maintenance recommandations, the person in the cockpit, via the Landing Gear Monitoring System (LGMS) application and the Interactive Bite (Special Function), monitors the gas temperature, gas pressure and the accumulator position."
+
+S40_02
+"The person on the actuator measures the A1 dimension and check the P1 and P2 pressure and the A1 value."
+
+S50_S01
+"The gas and oil servicing must be done step by step as per AMM procedure"
+
+S50_02
+"Firstly, actuator must be depressurized prior refilling the gas and oil. Then, a gas pre-charge P1 is done thru the gas charging valve. Thirdly, the oil chambers refilling is done thru the lower oil charging valve until overflow. Finally, a final gas refilling P2 is done thru the gas charging valve."
+
+S50_03
+"The P1 and P2 pressure depends on the outside temperature and actuator piston length."
+
+S60_01
+"To summarize, the functions of the Pitch Trim Actuator are: To make sure that the wheels are correctly positioned in the MLG bay during extension and retraction cycles And to absorb bogie pitch oscillations during landing and taxi. The pitch trim actuator is an independent hydraulic actuator segregated from the HP hydraulic systems."
+
+S60_02
+"The actuator is made of fluid and nitrogen chambers. It is electrically monitored. A message is triggered in case of low fluid quantity or low pressure nitrogen pre-charge. Fluid and nitrogen servicing are possible with charging valves."
+
+S60_03
+"The Landing Gear Management System (LGMS) applications receives the fluid quantity, actuator pressure and temperature information. They are used by the CDS and OMS. The PTA values can be seen on the CDS with a specific LGMS interactive Bite."

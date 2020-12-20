@@ -1,0 +1,48 @@
+Audio 1 on a fix image 
+You must respect all warning and caution listed in the task closing the fan cowl doors with power door opening system.
+
+Audio 2 on image a/c with slats retracted and fan cowls open 
+Make sure wing slats are retracted and thrust reverser cowls are closed before you close the fan cowl door.
+
+Audio 3 on image cockpit with locking tool installed 
+Make sure the locking tool is installed on the slat/flap control lever before you close the fan cowl door.
+
+
+Audio 4 on image cockpit with cb pulled 
+Make sure the circuits breakers listed on the task are open, safetied and tag, and displayed on the e-cam page.
+
+
+Audio 5 – tc 00 07 
+Push the PDOS up button until the fan cowl door reaches the maximum open position.
+
+Audio 6 – tc 00 17 
+Pull, fully rotate and hold the hold open rod handle in the open position to unlock the hold open rod.
+
+Audio 7 – tc 00 23 
+With the handle in the open position push and hold the PDOS down button until the hold open rod retract below the lock position. Add this retraction movement on the video after the movement of the collar.
+
+Audio 8 – tc 00 25 
+Then release the handle which return to the closed position.
+
+Audio 9 – tc 00 29 
+Continue to push and hold the PDOS down button until the fan cowl door engage with the fittings on the inlet cowl. Fittings not visible on the video
+
+Audio 10 – tc 00 45 
+Push the fan cowl doors to the fully closed position.
+
+Audio 11 – tc 00 50 
+Close the fan cowl doors latches in the sequence l1, l2, l3, l4.
+
+Audio 12 – tc 00 58 
+Put and hold the forward mini lap for latch L1 in the closed position and then push and turn the cam lock clockwise with a screwdriver to lock the forward mini lap in the closed position.
+
+Audio 13 – tc 01 05 
+Put and hold the aft mini lap for latch L4 in the closed position, push the key up and turn the key clockwise to lock the mini lap in the closed position. Remove the key.
+
+
+
+Audio 14– tc 01 20  on image cockpit with locking tool not installed 
+Remove the locking tool installed on the slat/flap control lever.
+
+audio 15  on image cockpit with cb closed (page diplay normal indication) 
+Remove the tag, safety clip and close the circuit breakers listed on the task, ecam circuit breakers page show normal indication.

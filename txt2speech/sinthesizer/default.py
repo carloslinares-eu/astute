@@ -1,10 +1,6 @@
 from google.cloud import texttospeech
 
 
-
-# Importing JSON
-
-
 # Instantiates a client
 client = texttospeech.TextToSpeechClient(credentials=credentials)
 input_title = "Slide15"
