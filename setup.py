@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="txt2speech",
+    name="as2t",
     version="0.0.1",
     author="Carlos Linares",
     author_email="contact@carloslinares.eu",
