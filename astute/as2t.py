@@ -6,9 +6,9 @@ import PIL.ImageTk
 import PIL.Image
 
 main_window = tkinter.Tk()
-main_window.title("AS2T - ATEXIS Text-to-Speech App")
+main_window.title("ASTUTE - ATEXIS Text-to-Speech App")
 main_window.geometry("480x480")
-main_window.iconbitmap("as2t/as2t.ico")
+main_window.iconbitmap("astute.ico")
 text_format_01 = ("Segoe UI", 10)
 main_width = 60
 
