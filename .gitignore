@@ -128,5 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Output files
+# Output audio files
 *.mp3
+
+# PyCharm project files
+./idea
