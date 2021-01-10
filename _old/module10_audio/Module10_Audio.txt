@@ -1,9 +1,0 @@
-S10
-Several airlines have reported cases of erosion or cracks on the sharklet glazings (navigation and strobe lights).  This erosion is sometimes reported at a very early stage (2 years after the EIS), probably linked to pollution and sandy aircraft environment. Most of the reported cases were discovered outside of the AMM 57-37-13 limits and the glazing had to be replaced before next flight.  Some of them led to an AOG situation as it was not possible to provide a temporary solution for the aircraft release.
-S20
-Airbus is currently working along several axes: Preventive maintenance measures have been taken by updating the AMM task. Investigating for the root cause of erosion and early phenomenon. Investigating if any new material can improve erosion protection.
-S30
-Link to this issue on the Sharklet Glazing, two maintenance recommendations are available: First, Airbus recommends to apply the polishing procedure. For information, further investigations have been conducted and AMM 57-37-13 allowable limits have been extended. It is now acceptable to polish until the remaining thickness is: CEO Sharklet Navigation Transparency: 2.90mm. CEO Sharklet Strobe Transparency: 3.00mm.  NEO Sharklet Navigation Transparency: 2.70mm. NEO Sharklet Strobe Transparency: 2.80mm. AMM 57-37-13 was updated accordingly. Secondly, constantly monitor spare parts to ensure their availability.
-S40
-In case of erosion findings, it is possible to polish the glazing as per AMM 57-37-13. Nondestructive Testing Manual (NTM) chapter 57-29-08 describes how to measure the thickness of the glazing on wing tip fence. The procedure is being revised to include CEO/NEO sharklet designs. To date, the thickness check of NEO sharklet glazing can be performed by mechanical measurement. Please note that spares will be delivered only after polishing performed with result confirming part are not serviceable according to AMM values.
-S50

@@ -1,4 +1,0 @@
-S310_rev01
-The fatigue and WFD inspections and modifications of the A330 and A340 200 and 300 aircraft families, expressed in flight cycles and flight hours, can be chosen indifferently between the long range and the short range maintenance programs.
-As the long range maintenance program is optimised in flight hours, it is more appropriate for aircraft operating long flights.
-Whereas the short range maintenance program, as it is optimised in flight cycles, is more appropriate for aircraft operating short flights.
