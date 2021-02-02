@@ -15,10 +15,14 @@ def browse_license_file():
     return path_to_license
 
 
+def login():
+    pass
+
+
 license_label = tkinter.Label(login_window, text="Select a License File", anchor="w", font=text_format_01)
 license_path = tkinter.Entry(login_window, font=text_format_01, width=38)
 browse_button = tkinter.ttk.Button(login_window, text="Browse", command=browse_license_file)
-login_button = tkinter.
+login_button = tkinter.ttk.Button(login_window, text="Login", command=login)
 
 
 license_label.grid(padx=20, pady=10, row=0, column=0, columnspan=2, sticky="W")

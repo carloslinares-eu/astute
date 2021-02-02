@@ -1,16 +1,19 @@
 from google.cloud import texttospeech
+import astute.login.local
 
+# Authentication
+credentials, scoped_credentials = astute.login.local.login_with_json("./astute/login/gcloud_credentials.json")
 
 # Instantiates a client
 client = texttospeech.TextToSpeechClient(credentials=credentials)
-input_title = "Slide15"
-input_text = "A Wing is a type of fin that produces lift, while moving through air or some other fluid. As such, wings have streamlined cross-sections that are subject to aerodynamic forces and act as airfoils. A wing's aerodynamic efficiency is expressed as its lift-to-drag ratio. The lift a wing generates at a given speed and angle of attack can be one to two orders of magnitude greater than the total drag on the wing. A high lift-to-drag ratio requires a significantly smaller thrust to propel the wings through the air at sufficient lift. The selection of the configuration of the wing goes a lot depending on the requirements of operation. The aspects related to the different characteristics structural needs and aerodynamics can be decisive factors when choosing an initial setup. The final decision must be subject to maximizing the flexibility of operation of the final design."
+input_title = "Viesgo"
+input_text = "Una vez creada la tarea, podemos crear subtareas asociadas en caso de necesitarse."
 synthesis_input = texttospeech.SynthesisInput(text=input_text)
 
 # Build the voice request, select the language code ("en-US") and the ssml
 # voice gender ("neutral")
 voice = texttospeech.VoiceSelectionParams(
-    language_code="en-GB", ssml_gender=texttospeech.SsmlVoiceGender.MALE, name="en-GB-Wavenet-B"
+    language_code="es-ES", ssml_gender=texttospeech.SsmlVoiceGender.MALE, name="es-ES-Wavenet-B"
 )
 
 # Select the type of audio file you want returned
