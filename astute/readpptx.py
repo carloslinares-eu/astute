@@ -12,3 +12,4 @@ def extract_notes(pptx_file_path):
             'speaker_notes': text_note
         })
     return data
+
